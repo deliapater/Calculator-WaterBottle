@@ -22,7 +22,8 @@ public class Printer {
         }
     }
 
-    public void refill(){
-        paperLeft = 100;
+    public void refill(int paperAdded){
+        paperLeft += paperAdded;
     }
 }
+
